@@ -1,25 +1,19 @@
-
+import NavBar from "./components/Navbar/Navbar";
+import Main from "./components/Main/Main";
+import Products from "./components/Products/Products";
 import './App.css'
+import Banner from "./components/Banner/Banner";
+import Form from "./components/Form/Form";
 
 function App() {
 
   return (
     <>
-      <div>
-
-      </div>
-      <h1>start</h1>
-      <div className="card">
-        <button >
-          count is 
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <NavBar />
+      <Main />
+      <Products />
+      <Banner />
+      <Form />
     </>
   )
 }

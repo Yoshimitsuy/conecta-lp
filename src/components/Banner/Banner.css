@@ -1,0 +1,74 @@
+.banner-container {
+  border: 2px solid rgb(10, 2, 117);
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-h3 {
+  color: #0E0E0E;
+  font-family: Artigo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.button-3 {
+  width: 193px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 30px;
+  background: #3b3b3b;
+  color: #FFF;
+}
+
+.banner-publi {
+  width: 326px;
+  height: 288px;
+  flex-shrink: 0;
+
+  background: #1B1F1C;
+}
+
+.banner-h2 {
+  width: 255px;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Artigo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-a-h2 {
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img-banner-1 {
+  width: 327px;
+  height: 520px;
+  flex-shrink: 0;
+}
+
+.publi {
+  width: 374px;
+  height: 370px;
+  flex-shrink: 0;
+
+  background-color: #00EC5B;
+}
+
+.publi-img {
+  width: 149.267px;
+  height: 262.174px;
+  flex-shrink: 0;
+}

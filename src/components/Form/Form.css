@@ -1,0 +1,97 @@
+.form-container {
+  border: 2px solid rgb(207, 221, 9);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+
+  color: #00EC5B;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input {
+  width: 327px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+select {
+  width: 335px;
+  height: 46px;
+  flex-shrink: 0;
+
+  color: #FFF;
+}
+
+.talk h2 {
+  color: #FFF;
+  font-family: Artigo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.social {
+  width: 104px;
+  height: 16px;
+  flex-shrink: 0;
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea {
+  resize: none;
+
+  width: 328px;
+  height: 131px;
+  flex-shrink: 0;
+}
+
+.footer span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer img {
+  width: 84px;
+  height: 54px;
+  flex-shrink: 0;
+}

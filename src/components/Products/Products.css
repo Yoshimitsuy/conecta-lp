@@ -1,0 +1,35 @@
+.products-container {
+  background-color: #FFF;
+  border: 2px solid green
+}
+
+.button-2 {
+  width: 185px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 30px;
+  background: #00EC5B;
+  color: black;
+}
+
+h2 {
+  color: #101213;
+  font-family: Artigo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h3 {
+  width: 280px;
+
+  color: #0E0E0E;
+  text-align: center;
+  font-family: Artigo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,43 @@
+/* lata-guaraná 1 */
+.main-container {
+  background: url(https://s3-alpha-sig.figma.com/img/896d/a8d8/aca33bafb2029f80a4915ff6d4d33c1d?Expires=1694390400&Signature=MDrK0nJEc46fomF7C-UL2TiCoXwiM1ZwwWMmN5DNTfLrGiWqD8jneGLsl4-ubBTdFM5hvLH3ZZATK21x2-2-AceXACGqvOX7xWYHoxhg06qWz8Xx3neg5NfHZ9IJeelBgoTrrPh-hFfHVHTid0S2bqYL56nD6GwmCVn07BBnacj-prFtnZc2vMTWIVdM8hCNc8gSVO0wu5RelfZBaP10nMgS8blrNdggBLCWB3oi0hRsmq1fKv~P1B5Fe-JfUa-TxYFFOP2GQbeEww8Hep6Uj~46jx3SWEy3xfZkgx0qEHjrWNnphjd9evO4JEbmaXyQdG7W1BC~uggeiowi0m6tFw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  border: 2px solid red;
+
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guarana {
+  /* position: absolute; */
+  left: -43%;
+  right: 18.47%;
+  top: 16.57%;
+  /* bottom: 10.91%; */
+}
+
+.title h2{
+  width: 330px;
+  height: 88px;
+  flex-shrink: 0;
+
+  color: #ffffff;
+  text-align: center;
+  font-family: Artigo;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 45.6px */
+}
+
+.button-1 {
+  width: 327px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 30px;
+  background: #00EC5B;
+  color: black;
+}
