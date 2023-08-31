@@ -1,8 +1,16 @@
 .banner-container {
-  border: 2px solid rgb(10, 2, 117);
+  border: 1px solid rgb(10, 2, 117);
   background-color: #FFF;
+
+  width: 375px;
+  padding: 20px 0
+}
+
+.banners {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-h3 {
@@ -25,6 +33,10 @@
 }
 
 .banner-publi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 326px;
   height: 288px;
   flex-shrink: 0;
@@ -60,6 +72,11 @@
 }
 
 .publi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   width: 374px;
   height: 370px;
   flex-shrink: 0;
@@ -71,4 +88,8 @@
   width: 149.267px;
   height: 262.174px;
   flex-shrink: 0;
+}
+
+.bann2 {
+  padding-bottom: 50px;
 }

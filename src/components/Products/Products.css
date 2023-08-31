@@ -1,6 +1,9 @@
 .products-container {
   background-color: #FFF;
-  border: 2px solid green
+  border: 1px solid green;
+
+  width: 375px;
+  height: 1200px;
 }
 
 .button-2 {
@@ -13,7 +16,14 @@
   color: black;
 }
 
-h2 {
+.products-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-title h2 {
+
   color: #101213;
   font-family: Artigo;
   font-size: 24px;

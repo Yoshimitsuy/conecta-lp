@@ -8,7 +8,7 @@
   justify-content: space-between;
   height: 90px;
   width: 375px;
-  padding:  0 5px;
+  
 }
 
 .conecta-logo {
@@ -24,4 +24,5 @@
   justify-content: center;
   gap: 1rem;
   color: white;
+  padding:  0 5px;
 }

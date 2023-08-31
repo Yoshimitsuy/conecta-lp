@@ -8,7 +8,7 @@ const Banner = () => {
     <>
       <div className='banner-container'>
 
-        <div>
+        <div className='banners'>
           <div className='img-banner-1'>
             <img src={banner1} alt="" />
           </div>
@@ -22,8 +22,8 @@ const Banner = () => {
             <h2 className='banner-a-h2'>@lorem-ipsum</h2>
           </div>
 
-          <div>
-            <img src={banner2} alt="" />Peça para seu bar
+          <div className='bann2'>
+            <img src={banner2} alt="" />
           </div>
 
           <div className='publi'>

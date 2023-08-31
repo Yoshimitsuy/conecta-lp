@@ -15,7 +15,7 @@ const Products = () => {
           </h3>
         </div>
 
-        <div>
+        <div className='cards'>
           <Card />
           <Card />
         </div>
