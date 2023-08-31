@@ -3,7 +3,7 @@
   background-color: #FFF;
 
   width: 375px;
-  padding: 20px 0
+  padding: 120px;
 }
 
 .banners {
@@ -28,7 +28,7 @@
   flex-shrink: 0;
 
   border-radius: 30px;
-  background: #3b3b3b;
+  background: var(--dark-1);
   color: #FFF;
 }
 
@@ -41,7 +41,7 @@
   height: 288px;
   flex-shrink: 0;
 
-  background: #1B1F1C;
+  background: var(--dark-1);
 }
 
 .banner-h2 {

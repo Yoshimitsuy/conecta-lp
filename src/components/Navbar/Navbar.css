@@ -1,6 +1,6 @@
 
 .navbar-container {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   background-color: rgb(67, 64, 64);
 
   display: flex;
@@ -9,6 +9,7 @@
   height: 90px;
   width: 375px;
   
+  padding: 0 20px;
 }
 
 .conecta-logo {

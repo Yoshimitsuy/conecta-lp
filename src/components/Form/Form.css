@@ -1,13 +1,80 @@
 .form-container {
-  border: 2px solid rgb(207, 221, 9);
+  /* border: 1px solid rgb(207, 221, 9); */
+
   display: flex;
   flex-direction: column;
-  padding: 50px;
+
+  width: 375px;;
 }
 
 .form-inputs {
   display: flex;
   flex-direction: column;
+
+  padding: 0 25px;
+}
+
+.form-inputs input:focus {
+  outline: none;
+  border-color: var(--verde-1);
+  background-color: var(--dark-2);
+}
+
+.form-inputs select:focus {
+  outline: none;
+  border-color: var(--verde-1);
+  background-color: var(--dark-2);
+}
+
+.form-inputs textarea:focus {
+  outline: none;
+  border-color: var(--verde-1);
+  background-color: var(--dark-2);
+}
+
+.form-inputs input {
+  width: 327px;
+  height: 46px;
+  flex-shrink: 0;
+
+  background-color: #242424;
+  padding: 0 20px;
+
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: none;
+  border-left: none;
+}
+
+.form-inputs select {
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: none;
+  border-left: none;
+
+  background-color: #242424;
+  padding: 0 20px;
+
+  width: 327px;
+  height: 46px;
+  flex-shrink: 0;
+
+  color: #FFF;
+}
+
+.form-inputs textarea {
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: none;
+  border-left: none;
+
+  background-color: #242424;
+  resize: none;
+  padding: 20px 20px;
+
+  width: 327px;
+  height: 131px;
+  flex-shrink: 0;
 }
 
 label {
@@ -15,6 +82,7 @@ label {
   flex-direction: column;
   align-items: flex-start;
   margin: 10px 0;
+  gap: 10px;
 
   color: #00EC5B;
   font-family: Roboto;
@@ -24,18 +92,8 @@ label {
   line-height: normal;
 }
 
-input {
-  width: 327px;
-  height: 46px;
-  flex-shrink: 0;
-}
-
-select {
-  width: 335px;
-  height: 46px;
-  flex-shrink: 0;
-
-  color: #FFF;
+.talk {
+  margin: 30px;
 }
 
 .talk h2 {
@@ -58,14 +116,8 @@ select {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
 
-textarea {
-  resize: none;
-
-  width: 328px;
-  height: 131px;
-  flex-shrink: 0;
+  padding-left: 10px;
 }
 
 .footer span {
@@ -94,4 +146,23 @@ textarea {
   width: 84px;
   height: 54px;
   flex-shrink: 0;
+}
+
+.button-2 {
+  margin: 25px;
+
+  width: 193px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 50px;
+  background: var(--verde-1);
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1439px) {
+
+}
+  
+@media screen and (min-width: 1440px ) {
+
 }

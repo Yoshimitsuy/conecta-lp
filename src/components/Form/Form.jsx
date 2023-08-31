@@ -25,24 +25,24 @@ const Form = () => {
 
           <div className='form-inputs'>
             <label htmlFor="">
-              NAME :
+              NAME
               <input type="text" placeholder='Rafael Lacana' />
             </label>
 
             <label htmlFor="">
-              TELEFONE :
+              TELEFONE
               <input type="text" placeholder='(21) 00000-0000' />
             </label>
 
             <label htmlFor="">
-              E-MAIL :
+              E-MAIL
               <input type="text" placeholder='email@email.com' />
             </label>
 
             <label htmlFor="">
-              ASSUNTO :
+              ASSUNTO
               <select>
-                <option type="select" placeholder='nome' hidden>selecione um assunto</option>
+                <option type="select" disabled selected>selecione uma opção</option>
                 <option type="select" placeholder='nome'>1</option>
                 <option type="select" placeholder='nome'>2</option>
                 <option type="select" placeholder='nome'>3</option>
@@ -52,7 +52,7 @@ const Form = () => {
             </label>
 
             <label htmlFor="">
-              ASSUNTO :
+              MENSAGEM
               <textarea type="text" placeholder='escreva aqui sua mensagem' maxLength='500' cols='30' rows='10'/>
             </label>
           </div>
