@@ -43,3 +43,99 @@ h3 {
   font-weight: 400;
   line-height: normal;
 }
+
+@media screen and (min-width: 768px ) and (max-width: 1440px) {
+  .products-container {
+    /* border: 1px solid green; */
+    background-color: #FFF;
+  
+    width: 768px;
+    height: 750px;
+  }
+  
+  .button-2 {
+    width: 185px;
+    height: 56px;
+    flex-shrink: 0;
+  
+    border-radius: 30px;
+    background: var(--verde-1);
+    color: black;
+  }
+  
+  .products-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products-title h2 {
+  
+    color: #101213;
+    font-family: Artigo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  h3 {
+    width: 280px;
+  
+    color: #0E0E0E;
+    text-align: center;
+    font-family: Artigo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+  
+@media screen and (min-width: 1440px ) {
+  .products-container {
+    /* border: 1px solid green; */
+    background-color: #FFF;
+  
+    width: 1440px;
+    height: 750px;
+  }
+  
+  .button-2 {
+    width: 185px;
+    height: 56px;
+    flex-shrink: 0;
+  
+    border-radius: 30px;
+    background: var(--verde-1);
+    color: black;
+  }
+  
+  .products-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products-title h2 {
+  
+    color: #101213;
+    font-family: Artigo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  h3 {
+    width: 280px;
+  
+    color: #0E0E0E;
+    text-align: center;
+    font-family: Artigo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

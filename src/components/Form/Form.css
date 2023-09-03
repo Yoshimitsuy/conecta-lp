@@ -14,15 +14,40 @@
   padding: 0 25px;
 }
 
+input {
+  transition: all 0.3s ease-in-out;
+}
+
+select {
+  transition: all 0.3s ease-in-out;
+}
+
+textarea {
+  transition: all 0.3s ease-in-out;
+}
+
+.form-inputs input:hover {
+  background-color: var(--dark-2);
+}
+
+
 .form-inputs input:focus {
   outline: none;
   border-color: var(--verde-1);
   background-color: var(--dark-2);
 }
 
+.form-inputs select:hover {
+  background-color: var(--dark-2);
+}
+
 .form-inputs select:focus {
   outline: none;
   border-color: var(--verde-1);
+  background-color: var(--dark-2);
+}
+
+.form-inputs textarea:hover {
   background-color: var(--dark-2);
 }
 
@@ -159,7 +184,11 @@ label {
   background: var(--verde-1);
 }
 
-@media screen and (min-width: 768px ) and (max-width: 1439px) {
+.button-2:hover {
+  background-color: var(--hover-1);
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1440px) {
 
 }
   

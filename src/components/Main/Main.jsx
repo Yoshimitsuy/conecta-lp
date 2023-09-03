@@ -9,6 +9,7 @@ const Main = () => {
           <img src={lataGuarana1} alt="" />
         </div>
 
+        <div className='main-description'>
         <div className='title'>
           <h2>aqui um caralho de duas linhas</h2>
         </div>
@@ -16,6 +17,8 @@ const Main = () => {
         <div>
           <button className='button-1'>aqui um CTA</button>
         </div>
+        </div>
+        
         
       </div>
     </>
