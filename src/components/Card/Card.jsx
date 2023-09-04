@@ -11,7 +11,7 @@ const Card = () => {
         <h4>garrafa 350ml</h4>
         <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
         
-        <button className='button-2'>aqui um CTA</button>
+        <button className='button-2'>adicionar ao carrinho</button>
       </div>
     </>
   )

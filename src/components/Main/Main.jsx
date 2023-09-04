@@ -11,11 +11,11 @@ const Main = () => {
 
         <div className='main-description'>
         <div className='title'>
-          <h2>aqui um caralho de duas linhas</h2>
+          <h2>uma nova bebida, um novo sabor</h2>
         </div>
 
         <div>
-          <button className='button-1'>aqui um CTA</button>
+          <button className='button-1'>experimente</button>
         </div>
         </div>
         
